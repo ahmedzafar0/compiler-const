@@ -13,13 +13,14 @@ var arr = []
 var str_arr = str.split(space)
 console.log(str_arr)
 
+// reading every letter and use some regex to identify some characters
 for(var i = 0; i < str.length; i++){
     
     var character = str.charAt(i)
     // console.log(str.charAt(i))
     if(space.test(character)){
         console.log('white space found' + ' ' + character)
-
+        
     }
     if(dot.test(character)){
         console.log('dot found' + ' ' + character)
@@ -43,9 +44,12 @@ for(var i = 0; i < str.length; i++){
     }
 
 }
+//trying to get identifiers in new array
+var identifier = str_arr.splice(str.indexOf(rgx))
+console.log(identifier);
 
-    // console.log('not a word found' + ' ' + character)
-    var word = str.split(notword)
-    console.log(word.toString())
+//ignore this for now
+var word = str.split(notword)
+console.log(word.toString())
 
 
