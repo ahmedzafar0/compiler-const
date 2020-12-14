@@ -1,7 +1,7 @@
 var str = 'my name, is ahmed.hello() osama contributor why.me()'
 
 var rgx = /([a-z]+\.[a-z]+)/g;
-var space = /\b\s+/g
+var space = /\s+/g
 var dot = /\./g
 var comma = /\,/g
 var openparen = /\(/g
@@ -45,11 +45,16 @@ for(var i = 0; i < str.length; i++){
 
 }
 //trying to get identifiers in new array
-var identifier = str_arr.splice(str.indexOf(rgx))
-console.log(identifier);
+for(i in str_arr){
+    if(identifiers = rgx.exec(str_arr[i])){
+        console.log("identifiers found" + ' ' +identifiers[0])
+    }
+}
+// var identifier = str_arr.splice(str.indexOf(rgx))
+// console.log(identifier);
 
 //tried to get every word
-var word = str.split(notword)
+var word = str.split((notword))
 console.log(word.toString())
 
 
