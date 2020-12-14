@@ -48,7 +48,7 @@ for(var i = 0; i < str.length; i++){
 var identifier = str_arr.splice(str.indexOf(rgx))
 console.log(identifier);
 
-//ignore this for now
+//tried to get every word
 var word = str.split(notword)
 console.log(word.toString())
 
