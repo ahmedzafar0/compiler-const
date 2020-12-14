@@ -47,7 +47,8 @@ for(var i = 0; i < str.length; i++){
 //trying to get identifiers
 for(i in str_arr){
     if(identifiers = rgx.exec(str_arr[i])){
-        console.log("identifiers found" + ' ' +identifiers[0])
+        var id = identifiers[0].split('.')
+        console.log("identifiers found" + ' ' +id.toString())
     }
 }
 
