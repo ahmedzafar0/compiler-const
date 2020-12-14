@@ -1,13 +1,13 @@
 var str = 'my name, is ahmed.hello() osama contributor why.me()'
 
 var rgx = /([a-z]+\.[a-z]+)/g;
-var space = /\s+/g
+var space = /\b\s+/g
 var dot = /\./g
 var comma = /\,/g
 var openparen = /\(/g
 var closedparen = /\)/g
 var newline = /\n/g
-var notword = /\W/g
+var notword = /\b\W+/g
 var arr = []
 
 var str_arr = str.split(space)
