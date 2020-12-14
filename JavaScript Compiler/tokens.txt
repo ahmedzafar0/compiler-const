@@ -1,0 +1,114 @@
+[
+  {
+    "value": "\"",
+    "tag": "punctuation"
+  },
+  {
+    "value": "string",
+    "tag": "word"
+  },
+  {
+    "value": "\"",
+    "tag": "punctuation"
+  },
+  {
+    "value": "_",
+    "tag": "alien"
+  },
+  {
+    "value": "osama",
+    "tag": "word"
+  },
+  {
+    "value": "09",
+    "tag": "number"
+  },
+  {
+    "value": "+",
+    "tag": "symbol"
+  },
+  {
+    "value": "+",
+    "tag": "symbol"
+  },
+  {
+    "value": "_",
+    "tag": "alien"
+  },
+  {
+    "value": "osama",
+    "tag": "word"
+  },
+  {
+    "value": "09",
+    "tag": "number"
+  },
+  {
+    "value": "=",
+    "tag": "symbol"
+  },
+  {
+    "value": "osama",
+    "tag": "word"
+  },
+  {
+    "value": "_",
+    "tag": "alien"
+  },
+  {
+    "value": "osama",
+    "tag": "word"
+  },
+  {
+    "value": "osama",
+    "tag": "word"
+  },
+  {
+    "value": "=",
+    "tag": "symbol"
+  },
+  {
+    "value": "+",
+    "tag": "symbol"
+  },
+  {
+    "value": "9877",
+    "tag": "number"
+  },
+  {
+    "value": ".",
+    "tag": "punctuation"
+  },
+  {
+    "value": ",",
+    "tag": "punctuation"
+  },
+  {
+    "value": ")",
+    "tag": "punctuation"
+  },
+  {
+    "value": "(",
+    "tag": "punctuation"
+  },
+  {
+    "value": "xyx",
+    "tag": "word"
+  },
+  {
+    "value": ".",
+    "tag": "punctuation"
+  },
+  {
+    "value": "hello",
+    "tag": "word"
+  },
+  {
+    "value": "(",
+    "tag": "punctuation"
+  },
+  {
+    "value": ")",
+    "tag": "punctuation"
+  }
+]
