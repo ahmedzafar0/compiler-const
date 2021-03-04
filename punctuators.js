@@ -5,9 +5,11 @@ const Regex = {
  floatRegex : new RegExp('([+-]?([0-9]*)?[.][0-9]+)'),
  stringRegex : new RegExp('[\"]+([\\w]*|[\\W&&[^\\\\]]*|(\\\\[\\\\\"nt])*|(\\\\[\\\\])*)*[\"]+'),
  charRegex : new RegExp('[\']+[\\w]'),
- punctRegex : new RegExp('(\.|\,|\(|\)|\{|\}|\[|\]|\:)')
+ punctRegex : new RegExp('(\.|\,|\(|\)|\{|\}|\[|\]|\:)'),
  //punct: [ ".",",","(",")","{","}","[","]",";",":" ],
  //oprRegex = new RegExp('/^(\+|-|\*|\/|=|\>|\<|\>=|\<=|\&&|\+=|\-=|\*=|\/=|\||\%|\!|\^|\(|\))$/')
- //oprRegex = new RegExp('(\+|\-|\*|\/|=|%|!|&)')
+ //oprRegex = new RegExp('[\+|-|*|\/|=|%|!|&|\+=|\-=|*=|\/=|\||<>]')
+ //oprRegex: new RegExp (/[~@#%\^\+=\*\|\/\<\>&]/g)
+ oprRegex: new RegExp('[(\+|\-|\*|\/|\=|<|>|&|!)]')
 }
 exports.Regex = Regex

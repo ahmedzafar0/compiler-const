@@ -43,9 +43,16 @@ const KW = {
         semiColon: "SemiColon",
         Colon: "Colon"
     },
-    operator: "operator",
+    operator: {
+        PlusMinus: "Plus/Minus",
+        MDM: "MDM",
+        logical: "Logical",
+        compound: "compound",
+        equal: "Equal",
+        incdec: "inc/dec",
+        rational: "Rational"
+    },
     comments: "comment",
-    punctuators: "punctuator"
     
 }
 
